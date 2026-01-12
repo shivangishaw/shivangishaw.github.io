@@ -2,11 +2,11 @@
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww29200\viewh18400\viewkind0
+\margl1440\margr1440\vieww29200\viewh15620\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 This documentation describes how to use the Pavel robotic\
 toothbrush.\
 \
 Note that this toothbrush is not safe to use for children,\
-adults, or pets.}
+adults, and pets.}
