@@ -111,6 +111,10 @@ body {
     background-color: var(--light-bg);
 }
 
+.current-role-section {
+    padding: 4rem 0;
+}
+
 .about-section h2,
 .content-section h2 {
     font-size: 2rem;
@@ -122,6 +126,7 @@ body {
 }
 
 .about-content p,
+.role-content p,
 .resume-content p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
