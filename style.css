@@ -113,24 +113,35 @@ body {
 
 .current-role-section {
     padding: 4rem 0;
+    background-color: white;
 }
 
 .about-section h2,
+.current-role-section h2,
 .content-section h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     color: var(--primary-color);
     border-bottom: 3px solid var(--accent-color);
     padding-bottom: 1rem;
     display: inline-block;
+    font-weight: 600;
+}
+
+.about-content,
+.role-content {
+    max-width: 900px;
 }
 
 .about-content p,
 .role-content p,
 .resume-content p {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
+    font-size: 1.05rem;
+    margin-bottom: 1.75rem;
+    line-height: 1.9;
+    color: #444;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* ============================================
@@ -597,8 +608,15 @@ code {
     }
 
     .about-section h2,
+    .current-role-section h2,
     .content-section h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .about-content p,
+    .role-content p {
+        font-size: 1rem;
+        text-align: left;
     }
 
     .cta-grid,
