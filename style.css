@@ -110,7 +110,7 @@ main {
    ============================================ */
 
 .content-section {
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 }
 
 .about-section {
@@ -329,23 +329,25 @@ main {
 
 .skills-section {
     margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 2rem 0;
 }
 
 .skill-category {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .skill-category h2 {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     color: var(--primary-color);
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.6rem;
     font-weight: 600;
 }
 
 .skill-inline {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: #333;
-    line-height: 1.5;
+    line-height: 1.6;
     letter-spacing: 0.2px;
 }
 
