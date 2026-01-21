@@ -9,20 +9,25 @@
 }
 
 :root {
-    --primary-color: #2c3e50;
-    --accent-color: #3498db;
-    --text-color: #333;
-    --light-bg: #f8f9fa;
-    --border-color: #ddd;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --primary-blue: #1F4FD8;
+    --charcoal-text: #1F2937;
+    --soft-gray-bg: #F5F7FA;
+    --white-bg: #FFFFFF;
+    --muted-slate: #64748B;
+    --primary-color: #1F4FD8;
+    --accent-color: #1F4FD8;
+    --text-color: #1F2937;
+    --light-bg: #F5F7FA;
+    --border-color: #E2E8F0;
+    --shadow: 0 2px 8px rgba(31, 79, 216, 0.08);
     --transition: all 0.3s ease;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: var(--text-color);
-    background-color: #fff;
+    color: var(--charcoal-text);
+    background-color: var(--white-bg);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -145,7 +150,7 @@ main {
     font-size: 0.95rem;
     margin-bottom: 1rem;
     line-height: 1.7;
-    color: #444;
+    color: var(--charcoal-text);
     text-align: justify;
     text-justify: inter-word;
 }
@@ -237,7 +242,7 @@ main {
 }
 
 .download-btn:hover {
-    background-color: #2980b9;
+    background-color: #163DB8;
     transform: scale(1.05);
 }
 
@@ -262,7 +267,7 @@ main {
 
 .company,
 .school {
-    color: #666;
+    color: var(--muted-slate);
     font-style: italic;
     margin-bottom: 0.5rem;
 }
@@ -306,6 +311,7 @@ main {
     margin-bottom: 1rem;
     font-size: 0.95rem;
     line-height: 1.8;
+    color: var(--charcoal-text);
 }
 
 .recommendation-author {
@@ -319,7 +325,7 @@ main {
 }
 
 .author-title {
-    color: #666;
+    color: var(--muted-slate);
     font-size: 0.85rem;
 }
 
@@ -346,7 +352,7 @@ main {
 
 .skill-inline {
     font-size: 1.05rem;
-    color: #333;
+    color: var(--charcoal-text);
     line-height: 1.6;
     letter-spacing: 0.2px;
 }
@@ -382,7 +388,7 @@ main {
 
 .skill-card li {
     margin-bottom: 0.5rem;
-    color: #555;
+    color: var(--charcoal-text);
 }
 
 .achievements-section h2 {
@@ -408,7 +414,7 @@ main {
 }
 
 .achievement-item p {
-    color: #555;
+    color: var(--charcoal-text);
     line-height: 1.8;
 }
 
@@ -442,13 +448,13 @@ main {
 }
 
 .sample-date {
-    color: #666;
+    color: var(--muted-slate);
     font-size: 0.85rem;
     margin-bottom: 0.75rem;
 }
 
 .sample-excerpt {
-    color: #555;
+    color: var(--charcoal-text);
     margin-bottom: 1rem;
     line-height: 1.8;
 }
@@ -536,7 +542,7 @@ main {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    box-shadow: 0 0 0 3px rgba(31, 79, 216, 0.1);
 }
 
 .submit-btn {
@@ -552,7 +558,7 @@ main {
 }
 
 .submit-btn:hover {
-    background-color: #2980b9;
+    background-color: #163DB8;
     transform: scale(1.05);
 }
 
@@ -575,7 +581,7 @@ hr {
 }
 
 code {
-    background-color: #f4f4f4;
+    background-color: var(--soft-gray-bg);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     font-family: 'Courier New', monospace;
