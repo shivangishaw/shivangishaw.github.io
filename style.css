@@ -325,6 +325,24 @@ body {
     margin-bottom: 3rem;
 }
 
+.skill-category {
+    margin-bottom: 2.5rem;
+}
+
+.skill-category h2 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.skill-inline {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
