@@ -83,29 +83,6 @@ body {
 }
 
 /* ============================================
-   HERO SECTION
-   ============================================ */
-
-.hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-    color: white;
-    padding: 6rem 2rem;
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-    animation: slideInDown 0.6s ease;
-}
-
-.hero-content .subtitle {
-    font-size: 1.3rem;
-    opacity: 0.9;
-    animation: slideInUp 0.6s ease 0.2s backwards;
-}
-
-/* ============================================
    PAGE HEADER
    ============================================ */
 
@@ -189,6 +166,32 @@ body {
 
 .cta-card p {
     opacity: 0.9;
+}
+
+.cta-section-minimal {
+    padding: 2rem 0;
+    background-color: var(--light-bg);
+}
+
+.cta-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cta-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: var(--transition);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.25rem;
+}
+
+.cta-link:hover {
+    color: var(--primary-color);
+    border-bottom-color: var(--accent-color);
 }
 
 /* ============================================
@@ -584,14 +587,6 @@ code {
         font-size: 0.9rem;
     }
 
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .hero-content .subtitle {
-        font-size: 1rem;
-    }
-
     .page-header h1 {
         font-size: 1.8rem;
     }
@@ -607,6 +602,10 @@ code {
     .writing-samples-grid,
     .contact-info-grid {
         grid-template-columns: 1fr;
+    }
+
+    .cta-links {
+        gap: 1rem;
     }
 
     .contact-form {
