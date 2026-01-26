@@ -413,6 +413,109 @@ main {
 }
 
 /* ============================================
+   ARTICLE PAGE (Copilot Agent Setup)
+   ============================================ */
+
+.article-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.article-content h1 {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.article-meta {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 2.2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.article-section {
+    margin-bottom: 2.5rem;
+    line-height: 1.8;
+}
+
+.article-content h2 {
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-top: 2.2rem;
+    margin-bottom: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 0.4rem;
+    border-bottom: 1.5px solid var(--accent-color);
+    text-align: left;
+}
+
+.article-content h3 {
+    font-size: 1.08rem;
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+}
+
+.article-content p {
+    font-size: 1.04rem;
+    margin-bottom: 1.2rem;
+    color: #444;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.article-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.article-content li {
+    margin-bottom: 0.7rem;
+    color: #444;
+    line-height: 1.7;
+@media (max-width: 768px) {
+    .article-content {
+        padding: 1.2rem 0.5rem;
+        max-width: 98vw;
+    }
+    .article-content h1 {
+        font-size: 1.3rem;
+    }
+    .article-content h2 {
+        font-size: 1.1rem;
+    }
+    .article-content h3 {
+        font-size: 1rem;
+    }
+    .article-content p,
+    .article-content ul,
+    .article-content li {
+        font-size: 0.97rem;
+    }
+}
+}
+
+.article-content strong {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.article-content em {
+    color: #666;
+    font-style: italic;
+}
+
+/* ============================================
    WRITING SAMPLES PAGE
    ============================================ */
 
