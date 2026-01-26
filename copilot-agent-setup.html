@@ -29,160 +29,75 @@
                     <h1>How to Set Up an Agent Using Copilot</h1>
                     
                     <p class="article-meta">Published: January 2026</p>
-
                     <section class="article-section">
-                        <h2>Overview</h2>
-                        <p>An agent is an autonomous entity that performs specific tasks, processes data, and executes workflows based on predefined rules and configurations. Agents improve operational efficiency by automating repetitive processes, reducing manual effort, and enabling faster data processing across your organization.</p>
-                        <p>This guide walks you through the process of setting up a functional agent using the Copilot platform. By the end of this documentation, you will have a fully configured agent ready to handle your business processes and workflows.</p>
+                        <p>Use this guide to set up an automation agent. Follow the steps to configure, test, and troubleshoot the agent in your environment.</p>
                     </section>
 
                     <section class="article-section">
-                        <h2>Intended Audience</h2>
-                        <p>This documentation is designed for:</p>
+                        <h2>What you'll need</h2>
                         <ul>
-                            <li><strong>Business Analysts:</strong> Who need to understand agent functionality and configure workflows</li>
-                            <li><strong>System Administrators:</strong> Responsible for deployment, maintenance, and user access management</li>
-                            <li><strong>Technical Teams:</strong> Managing integration with existing systems and APIs</li>
-                            <li><strong>Operations Managers:</strong> Overseeing process automation and performance monitoring</li>
-                        </ul>
-                        <p>While some technical knowledge is beneficial, this guide assumes no prior experience with agent setup and provides clear, step-by-step instructions suitable for users of all skill levels.</p>
-                    </section>
-
-                    <section class="article-section">
-                        <h2>Prerequisites</h2>
-                        <p>Before setting up your agent, ensure you have the following in place:</p>
-                        <ul>
-                            <li>Active Copilot account with administrator or configuration privileges</li>
-                            <li>Access to the target system or application where the agent will operate</li>
-                            <li>Valid API credentials or authentication tokens for integrated services</li>
-                            <li>Clear documentation of business processes and workflows to automate</li>
-                            <li>Basic understanding of your organization's data structures</li>
-                            <li>Network connectivity and proper firewall configuration for agent communication</li>
+                            <li>Permission to create and manage agents</li>
+                            <li>Access to the systems the agent will use</li>
+                            <li>Defined task or workflow to automate</li>
+                            <li>Authentication details for connected services</li>
+                            <li>Stable network connection</li>
                         </ul>
                     </section>
 
                     <section class="article-section">
-                        <h2>Steps to Set Up an Agent Using Copilot</h2>
-                        
-                        <h3>Step 1: Access the Agent Configuration Panel</h3>
-                        <p>Log in to your Copilot account and navigate to the main dashboard. From the navigation menu, select <strong>Agents</strong> > <strong>Create New Agent</strong>. This opens the agent configuration panel where you'll define your agent's properties and behavior.</p>
-                        
-                        <h3>Step 2: Define Agent Properties</h3>
-                        <p>In the configuration panel, enter the following information:</p>
+                        <h2>Set up an agent</h2>
+                        <ol>
+                            <li>Open your agent tool and go to Agents.</li>
+                            <li>Select Create agent.</li>
+                            <li>Enter a clear name and a short description.</li>
+                            <li>Choose how the agent starts: on a schedule, by an event, or manually.</li>
+                            <li>Add the actions the agent performs.</li>
+                            <li>Configure access and credentials for any services the agent uses.</li>
+                            <li>Save the agent and turn it on.</li>
+                        </ol>
+                    </section>
+
+                    <section class="article-section">
+                        <h2>Optional settings</h2>
                         <ul>
-                            <li><strong>Agent Name:</strong> Use a clear, descriptive name that indicates the agent's purpose (e.g., "Data Import Agent" or "Report Generator")</li>
-                            <li><strong>Description:</strong> Briefly explain what the agent will do and which processes it automates</li>
-                            <li><strong>Agent Type:</strong> Select from available types based on your workflow requirements (e.g., scheduled, event-triggered, or on-demand)</li>
-                            <li><strong>Environment:</strong> Choose Development, Staging, or Production based on your deployment stage</li>
-                        </ul>
-                        
-                        <h3>Step 3: Configure Authentication and Credentials</h3>
-                        <p>Set up security credentials required for your agent to access external systems:</p>
-                        <ul>
-                            <li>Enter API keys or OAuth tokens for connected services</li>
-                            <li>Configure timeout and retry settings for API calls</li>
-                            <li>Enable encryption for sensitive credentials</li>
-                            <li>Test the connection to verify authentication is working correctly</li>
-                        </ul>
-                        
-                        <h3>Step 4: Define Agent Triggers and Actions</h3>
-                        <p>Specify when and how your agent should operate:</p>
-                        <ul>
-                            <li>Set trigger conditions (e.g., on file upload, at scheduled time, or via API request)</li>
-                            <li>Define the primary action the agent will perform</li>
-                            <li>Configure any conditional logic or branching based on input data</li>
-                            <li>Set up error handling and fallback actions</li>
-                        </ul>
-                        
-                        <h3>Step 5: Map Data and Configure Transformations</h3>
-                        <p>If your agent processes data, map input fields to output fields:</p>
-                        <ul>
-                            <li>Define the structure of incoming data</li>
-                            <li>Specify any transformations or calculations needed</li>
-                            <li>Configure field validation rules</li>
-                            <li>Map transformed data to the target system's required format</li>
-                        </ul>
-                        
-                        <h3>Step 6: Test the Agent Configuration</h3>
-                        <p>Before deploying, thoroughly test your agent:</p>
-                        <ul>
-                            <li>Use test data to trigger the agent and verify it executes correctly</li>
-                            <li>Check that outputs match expected results</li>
-                            <li>Review execution logs for any warnings or errors</li>
-                            <li>Test error scenarios and verify fallback behaviors work as designed</li>
-                        </ul>
-                        
-                        <h3>Step 7: Deploy the Agent</h3>
-                        <p>Once testing is successful, deploy your agent to the selected environment:</p>
-                        <ul>
-                            <li>Click <strong>Save and Deploy</strong> in the configuration panel</li>
-                            <li>Confirm the deployment target (Development, Staging, or Production)</li>
-                            <li>Monitor the deployment status until completion</li>
-                            <li>Enable monitoring and alerting for the deployed agent</li>
+                            <li>Schedule: set frequency and start time.</li>
+                            <li>Error handling: set retries and timeouts.</li>
+                            <li>Notifications: send alerts on success or failure.</li>
+                            <li>Data rules: validate inputs and apply transformations.</li>
+                            <li>Logging: choose level and retention.</li>
                         </ul>
                     </section>
 
                     <section class="article-section">
-                        <h2>Verification</h2>
-                        <p>After deployment, confirm that your agent is working correctly by verifying the following:</p>
+                        <h2>Verify the agent is working</h2>
                         <ul>
-                            <li><strong>Agent Status:</strong> Check the agent dashboard to confirm the agent shows as "Active" or "Running"</li>
-                            <li><strong>Execution Logs:</strong> Review the execution logs to ensure recent trigger events processed without errors</li>
-                            <li><strong>Data Output:</strong> Verify that processed data appears correctly in the target system or output location</li>
-                            <li><strong>Performance Metrics:</strong> Check average execution time and success rate in the agent analytics dashboard</li>
-                            <li><strong>Alert Configuration:</strong> Confirm that alerts are configured to notify you of failures or anomalies</li>
+                            <li>Check the agent status shows Active.</li>
+                            <li>Run a test trigger and confirm it completes.</li>
+                            <li>Review logs for successful runs and no errors.</li>
+                            <li>Confirm expected output appears in the destination.</li>
+                            <li>Monitor alerts to ensure notifications are received.</li>
                         </ul>
-                        <p>If all verifications pass, your agent is ready for production use. Continue monitoring the agent regularly to ensure sustained performance.</p>
                     </section>
 
                     <section class="article-section">
                         <h2>Troubleshooting</h2>
-                        <p><strong>Issue: Agent fails to trigger or remains inactive</strong></p>
-                        <p><em>Cause:</em> Trigger conditions may not be met, or the agent may not be properly deployed.</p>
-                        <p><em>Resolution:</em></p>
+                        <p><strong>Agent does not start</strong></p>
                         <ul>
-                            <li>Verify the agent status is "Active" in the dashboard</li>
-                            <li>Review trigger conditions and confirm they align with incoming data or events</li>
-                            <li>Check execution logs for trigger-related errors</li>
-                            <li>Test the agent manually using the test trigger feature to confirm basic functionality</li>
-                            <li>If the issue persists, redeploy the agent to the same environment</li>
+                            <li>Verify the agent is turned on.</li>
+                            <li>Confirm triggers are configured and meet conditions.</li>
+                            <li>Check logs for start or trigger errors.</li>
                         </ul>
-                        
-                        <p><strong>Issue: Agent executes but produces incorrect output or missing data</strong></p>
-                        <p><em>Cause:</em> Data mapping, transformation rules, or credential issues may cause processing errors.</p>
-                        <p><em>Resolution:</em></p>
+                        <p><strong>Agent output is incorrect</strong></p>
                         <ul>
-                            <li>Review the data transformation rules in the agent configuration</li>
-                            <li>Verify API credentials have not expired and possess required permissions</li>
-                            <li>Check that input data format matches the configured schema</li>
-                            <li>Test with sample data to isolate which step in the process is failing</li>
-                            <li>Review error details in the execution logs for specific error messages</li>
+                            <li>Review action steps and data rules.</li>
+                            <li>Test with known input and compare expected results.</li>
+                            <li>Update mappings or transformations if needed.</li>
                         </ul>
-                        
-                        <p><strong>Issue: Agent experiences timeout errors or slow performance</strong></p>
-                        <p><em>Cause:</em> External API latency, large data volumes, or inefficient configuration may cause delays.</p>
-                        <p><em>Resolution:</em></p>
+                        <p><strong>Authentication fails</strong></p>
                         <ul>
-                            <li>Increase timeout settings in the agent configuration</li>
-                            <li>Enable caching for frequently accessed data</li>
-                            <li>Reduce the amount of data processed per execution if possible</li>
-                            <li>Check external service availability and performance</li>
-                            <li>Implement pagination for large datasets to process incrementally</li>
-                        </ul>
-                    </section>
-
-                    <section class="article-section">
-                        <h2>Skills Demonstrated</h2>
-                        <p>This documentation showcases the following technical writing and documentation skills:</p>
-                        <ul>
-                            <li><strong>User-Centered Documentation:</strong> Clear guidance tailored to multiple audience types (business analysts, system administrators, technical teams)</li>
-                            <li><strong>Structured Authoring:</strong> Logical organization using headings, numbered steps, bullet points, and semantic HTML</li>
-                            <li><strong>Procedural Documentation:</strong> Step-by-step instructions with emphasis on outcomes and verification</li>
-                            <li><strong>Troubleshooting Guidance:</strong> Problem-solution format that addresses user pain points with actionable resolutions</li>
-                            <li><strong>Technical Accuracy:</strong> Realistic workflows and processes relevant to SaaS and enterprise environments</li>
-                            <li><strong>Clarity and Conciseness:</strong> Avoidance of unnecessary jargon while maintaining technical accuracy</li>
-                            <li><strong>Information Architecture:</strong> Logical flow from overview through prerequisites to implementation and verification</li>
-                            <li><strong>Accessibility:</strong> Use of semantic HTML, clear formatting, and descriptive language for diverse users</li>
+                            <li>Confirm credentials are valid and have access.</li>
+                            <li>Re-enter tokens or keys and save.</li>
+                            <li>Retry the agent and check logs for details.</li>
                         </ul>
                     </section>
                 </div>
